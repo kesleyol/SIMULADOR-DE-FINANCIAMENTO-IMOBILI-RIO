@@ -1,4 +1,5 @@
-#SIMULADOR DE MUDANÇA DE PAÍS
+# Autor: Kesleyol
+# Simulador de viabilidade financeira: Brasil vs Europa
 #CONSIDERANDO UMA PESSOA CASADA COM FIHOS (PARA FINS DE CALCULO DE IMPOSTO)
 
 
