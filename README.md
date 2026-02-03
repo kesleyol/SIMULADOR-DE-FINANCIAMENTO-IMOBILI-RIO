@@ -1,17 +1,8 @@
-🌍Career & Finance Simulator: Brazil to Europe
-This is my first Python project, developed as part of my journey to transition from a Military Police Officer in Brazil to a Software Developer in Europe.
+# Simulador de Financiamento Imobiliário 🏠
+Este projeto compara os dois principais sistemas de amortização do Brasil: **SAC** e **PRICE**.
 
-.
-📊 Project Overview
-This script simulates the financial feasibility of moving to Germany or Switzerland. It calculates:
-
-Net Salary: Based on specific tax classes (e.g., Steuerklasse 3 in Germany).
-
-Cost of Living: Including housing (m² based on family size), health insurance, and grocery costs.
-
-Investment Potential: How much can be sent back to Brazil and its growth over time using Compound Interest formulas.
-
-🛠️ Technologies Used
-Python 3
-
-Financial Mathematics (Annuity & Compound Interest formulas)
+### Funcionalidades:
+- Cálculo de parcelas decrescentes (SAC) e fixas (PRICE).
+- Validação de entrada mínima bancária.
+- Verificação de margem de orçamento do usuário.
+- Comparativo de custo total entre os sistemas.
