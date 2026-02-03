@@ -92,7 +92,7 @@ Valor final financiamento::
 9%: R${vt_sac9:.2f}!
 12%: R${vt_sac12:.2f}!''')
 
-#COMPARAÇÃO ENTRE TABELAS
+#COMPARAÇÃO ENTRE TABELAS DE FINANCIAMENTO IMOBILIÁRIO
 
 print(f'{statussac9}')
 print(f'{statussac12}')
