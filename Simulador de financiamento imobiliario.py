@@ -13,6 +13,7 @@ valor_financiado = valor_total - entrada
 parcela9 =  valor_financiado * ((taxa_minima * (1 + taxa_minima)**parcelas) / ((1+taxa_minima)**parcelas-1))
 parcela12 =  valor_financiado * ((taxa_maxima * (1 + taxa_maxima)**parcelas) / ((1+taxa_maxima)**parcelas-1))
 porcentagem_entrada = (entrada / valor_total)*100
+
 #VALOR FINAL TOTAL
 vt_parcela9 = parcela9 * parcelas
 vt_parcela12 = parcela12 * parcelas
@@ -61,7 +62,7 @@ else:
     statussac12 = f'A tabela PRICE é a mais vantajosa considerando o valor final, com uma diferença de R${abs(vt_price12-vt_sac12):.2f}!'
 
 
-#TABELA PRICE
+#TABELA DE FINANCIAMENTO PRICE
 print(f'''
       TABELA PRICE:
 Valor do imóvel: R${valor_total:.2f}.
@@ -79,7 +80,7 @@ Valor final 12% a.a: R${vt_price12:.2f}.''')
 print(f'{status9}')
 print(f'{status12}')
 
-#TABELA SAC
+#TABELA DE FINANCIAMENTO SAC
 print(f'''
       TABELA SAC:
 9% a.a:
